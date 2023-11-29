@@ -1,6 +1,6 @@
 <script>
   import { todos } from "~/store";
-  import CreateTodo from "./component s/CreateTodo.svelte";
+  import CreateTodo from "./components/CreateTodo.svelte";
   import Todo from '~/components/Todo'
 
   const storageTodos = localStorage.getItem('todos');
